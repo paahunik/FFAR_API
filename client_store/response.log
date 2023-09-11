@@ -1,0 +1,2 @@
+FAIL,2,2023-07-13,10:42:36,/s/lattice-180/b/nobackup/galileo/paahuni/ffar_data/fake_data.csv,"ERROR 1: Data uploading failed. Authentication failed, please try again with valid username and password tokens"
+OK,2,2023-07-13,10:43:27,/s/lattice-180/b/nobackup/galileo/paahuni/ffar_data/fake_data.csv,SUCCESS: 2/2 rows Have been inserted to water_01_collection collection.
