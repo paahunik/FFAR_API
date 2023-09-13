@@ -2,8 +2,14 @@ Secure uploading of raw csv file using Rest API. It is flask based client-server
 
 # FFAR_API
 1. server.py -  To start flask server on localhost, will keep listening to clients requests
+
+         python3 server.py
    
-2. client.py -  To run client program, simply call: python3 client.py. It will ask you for username and password to push new data. It username and password don't match the any row in encrypted passwords file (keeping record of all users' id/password) server will ask for logon details again. 
+3. client.py -  To run client program, simply call:
+
+         python3 client.py
+
+It will ask you for username and password to push new data. It username and password don't match the any row in encrypted passwords file (keeping record of all users' id/password) server will ask for logon details again. 
 
 Another parameter is "file_name"  - which is absolute path of the csv file to be uploaded. If None, or value set it automatically set some file path. You can change that - "/s/lattice-180/b/nobackup/galileo/paahuni/ffar_data/fake_data.csv" to something else.  
 
